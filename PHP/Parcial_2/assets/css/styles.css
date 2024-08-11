@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif; /* Fuente clara y moderna */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Fondo claro y neutro */
+    color: #333; /* Texto principal en gris oscuro */
+}
+  
+  /* Encabezado */
+h1 {
+    background-color: #1e90ff; /* Azul vibrante para el encabezado */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em; /* Tamaño de fuente del encabezado */
+}
+  
+h2 {
+    color: #1e90ff; /* Azul consistente con el encabezado */
+    border-bottom: 2px solid #1e90ff; /* Línea de separación azul */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2em; /* Tamaño de fuente para subtítulos */
+    text-align: center; /* Centrar los subtítulos */
+    font-weight: bold; /* Titulo en "negrita" */
+}
+#card {
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+  /* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para la tabla */
+    
+}
+  
+th, td {
+    border: 1px solid #ddd; /* Borde suave para celdas */
+    padding: 12px; /* Espaciado en celdas */
+    text-align: left; /* Alineación por defecto de texto en celdas */
+    font-size: 12px; /* Tamaño de fuente ajustado */
+}
+
+
+#thead{
+    background-color: #b81414; /* Para el encabezado de la tabla de "Por hacer" */
+    color: white;
+}
+
+
+th {
+    text-align: center; /* Centrar el texto en los encabezados de tabla */
+}
+  
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color de fondo alternante claro */
+}
+  
+  /* Enlaces */x
+a {
+    color: #1e90ff; /* Color azul para enlaces */
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+
+.button-container {
+    display: flex; /* Utiliza flexbox para alinear los elementos en línea */
+    justify-content: center; /* Centra los botones horizontalmente */
+    margin-bottom: 20px; /* Margen inferior para separar de otros elementos */
+}
+.navbar .nav-link{
+    cursor: pointer;
+}
