@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Laboratorio 9.1</title>
+    </head>
+    <body>
+        <h1>Aplicacion web con imagen dinamica</h1>
+        <form action="lab91.php" method="post">
+            <label for="ventas">Ingresa el valor de ventas (%):</label>
+            <input type="number" id="ventas" name="ventas" min="0" max="100" required>
+            <button type="submit">Mostrar imagen</button>
+        </form>
+        <img id="image" src="" alt="Imagen" hidden>
+    </body>
+</html>
