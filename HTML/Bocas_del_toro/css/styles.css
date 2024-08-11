@@ -1,0 +1,193 @@
+body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* imagen principal  */
+.bg-image {
+    height: 100vh;
+    text-align: center;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* nombre de la provincia  */
+.tittle-provincia h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #f7f7f7;
+    text-shadow: 0 0 5px #078930, 0 0 6px #fcdd09;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+/* barra de navegacion */
+.container {
+    position: relative;
+    margin-bottom: 600px;
+}
+
+.navbar-nav a {
+    color: #f7f7f7;
+}
+
+.navbar-nav a:hover {
+    border-bottom: 3px solid #fcdd09;
+    border-top: 3px solid #fcdd09;
+    color: #f7f7f7;
+    border-bottom-left-radius: 0;
+}
+
+.container-md {
+    text-align: justify;
+    font-family: Arial, sans-serif;
+}
+
+/* section */
+section {
+    background-color: #f7f7f7;
+    border-image: linear-gradient(to right, #078930, #fcdd09) 1 / 2px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    scroll-margin-block-start: 100px;
+}
+
+/* linea divisora  */
+.hr-style {
+    height: 4px;
+    border-image: linear-gradient(to right, #078930, #fcdd09) 4 / 8px; /* Borde degradado con grosor y tamaño */
+}
+
+.col img {
+    width: 250px;
+    height: 300px;
+}
+
+.row-mapa {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: subgrid;
+    align-items: stretch;
+    padding-bottom: 20px;
+}
+
+.col-mapa {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+    padding-left: 10%;
+}
+
+#map, #map-img{
+    border: 1px solid #000;
+}
+
+.row_como_llegar-carro  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: subgrid;
+    align-items: stretch;
+    padding-bottom: 20px;
+}
+
+.como_llegar-carro {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+
+}
+
+.como_llegar-carro img {
+    width: 350px;
+    height: 200px;
+    padding-left: 15%;
+}
+
+/* bordes de "informacion adicional" */
+.left {
+    border-right: 2px solid #078930;
+    padding: 10px;
+}
+
+.col-md-6 {
+    margin-bottom: 20px;
+}
+
+.col-md-6 img{
+    width: 500px;
+    height: 300px;   
+    border: 1px solid #000;
+}
+
+.col-md-4 {
+    margin-top: 20px;
+}
+
+/* enlaces */
+.col-md-6 a{
+    color: #219ede;
+    font-weight: bold;
+}
+
+.left a{
+    color: #219ede;
+    font-weight: bold;
+}
+.col-md-4 a {
+    color: #219ede;
+    font-weight: bold;
+}
+/* enlaces hover*/
+.col-md-6 a:hover{
+    color: #078930;
+    font-weight: bold;
+}
+
+.left a:hover{
+    color: #078930;
+    font-weight: bold;
+}
+.col-md-4 a:hover{
+    color: #078930;
+    font-weight: bold;
+}
+
+/* footer */
+.footer {
+    color: #f7f7f7;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-footer {
+    height: 10vh;
+    text-align: center;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.footer img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+

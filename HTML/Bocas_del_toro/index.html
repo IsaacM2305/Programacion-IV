@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bocas del toro</title>
+
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    </head>
+
+    <body>
+
+        <img class="bg-image" src="https://images.unsplash.com/photo-1468413253725-0d5181091126?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="bg image">
+        
+        <div class="tittle-provincia">
+            <h1>BOCAS DEL TORO <br>
+                Playa Bluff 
+            </h1>
+          
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <a class="nav-item nav-link" href="#introduccion">Introducción</a>
+                        <a class="nav-item nav-link" href="#playa">Playa Bluff</a>
+                        <a class="nav-item nav-link" href="#como_llegar">Como llegar</a>
+                        <a class="nav-item nav-link" href="#historia">Historia</a>
+                        <a class="nav-item nav-link" href="#recomendaciones">Recomendaciones</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-md">
+            <section id="introduccion">
+                <h1>Introducción</h1>
+                <div class="row">
+                    <div class="col-md-8 text-left">
+                        <p>
+                            Bocas del Toro es uno de los destinos más populares de toda la República de Panamá. No solamente por sus hermosas playas con aguas cristalinas, sino también por su increíble ambiente 
+                            caribeño que hace que tu estancia sea algo para recordar toda la vida. 
+                            <br><br>
+                            La Provincia de Bocas del Toro es una de las 10 provincias de Panamá, ubicada en el extremo occidental del país. 
+                            Su capital es la ciudad de Bocas del Toro, localizada en la Isla Colón, que forma parte del Archipiélago de Bocas del Toro. 
+                            La provincia tiene una superficie de 3,037 km²
+                            Bocas del Toro se divide en dos, tiene un lado continental y su archipiélago en el Mar Caribe. 
+                            El lado continental es muy verde. Se conserva así gracias a sus áreas protegidas como el 
+                            Parque Internacional La Amistad (PILA), el Bosque Protector de Palo Seco y una de las comunidades indígenas que puedes visitar: los Naso Tjër Di. 
+                        </p>
+                    </div>
+                    <div class="col-md-4 float-right">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Bandera_de_la_Provincia_de_Bocas_del_Toro.svg/2560px-Bandera_de_la_Provincia_de_Bocas_del_Toro.svg.png" alt="bandera" class="img-fluid">
+                    </div>
+                </div>
+            </section>
+            <hr class="hr-style">
+
+            <section id="playa">
+                <h1>Playa Bluff</h1>
+                <p>
+                    Visitar Playa Bluff ofrece la oportunidad de experimentar la belleza cruda de la costa caribeña, haciéndola una visita obligada para amantes de la naturaleza y entusiastas del surf 
+                    cuando estén en Bocas del Toro.
+                </p>
+                <div class="row">
+                    <div class="col-md-8 text-left">
+                        <h4>
+                            Ubicación
+                        </h4>
+                        <p>
+                            Es una playa impresionante de 6 km de largo ubicada en el lado sureste de la Isla Colón en el archipiélago de Bocas del Toro de Panamá. La playa es conocida por su arena dorada pura, 
+                            playas frondosas de palmeras y olas intensas que la convierten en un lugar popular para practicar surf. 
+                        </p><br>
+                        <p>
+                            Playa Bluff forma parte del Parque Nacional Marino Isla Bastimentos, un parque marino protegido que sirve como área de anidación para varias especies de tortugas marinas, incluyendo tortugas carey, 
+                            tortugas de cuero y tortugas verdes, desde mayo hasta septiembre. La playa y el bosque circundante son hogar de una variedad diversa de vida silvestre, incluyendo sloths, aves y ranas.
+                        </p>
+                        <p>
+                            La playa se caracteriza por su entorno natural intacto, que incluye vegetación exuberante y palmeras que bordean la costa.
+                        </p>
+                    </div>
+                    <div class="col-md-4 float-right">
+                        <img src="images/bluff-beach-isla-colon.jpg" alt="bandera" class="img-fluid img-playa", style="height: 45vh;">
+                    </div>
+           
+                      
+                    <div class="col-md-6">
+                        <img src="images/Playa-Bluff-surf.jpg" alt="" class="img-fluid img-playa">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/playa-bluff.jpg" alt="" class="img-fluid img-playa" >
+                    </div>
+                </div>            
+            </section>
+            <hr class="hr-style">
+
+            <section id="como_llegar"  style="scroll-margin-top: 80px;">
+                <h1>Como llegar</h1>
+                <p>
+                    Para llegar a la provincia de Bocas del Toro, hay varias opciones. A continuación, te detallo las principales formas de llegar:
+                </p>
+                <p>
+                    Una vez se llega a la provincia de Bocas del Toro, para llegar a Playa Bluff desde Bocas Town (el pueblo principal en Isla Colón), puedes tomar un taxi, alquilar una bicicleta o 
+                    incluso hacer senderismo si estás dispuesto a una aventura más larga
+                </p>
+                <div class="row-mapa">
+                    <div class="col-mapa">
+                        <img src="images/como-llegar.jpg" class="img-fluid" style="width: 100%; height: 285px;", id="map-img">
+                    </div>
+<!-- mapa -->
+                    <div class="col-mapa">
+                        <div id="map" style="width: 100%; height: 285px;">
+                            <script>
+                                var map = L.map('map').setView([9.3861,-82.2711], 8);
+                                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                                }).addTo(map);
+                            
+                                L.marker([9.3861,-82.2711]).addTo(map)
+                                .bindPopup('Bocas del Toro, Panamá')
+                                .openPopup();
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                    
+                <h2>
+                    <ul>
+                        <li>
+                            En trasporte publico a Bocas del Toro desde la Ciudad de Panamá
+                        </li>
+                    </ul>
+                </h2>
+                <div class="row">
+                    <div class="col-md-8 text-left">
+                    <p>
+                        Para empezar, debes dirigirte a la Terminal de Transportes de Panamá en Albrook, ir a la ventanilla de que diga "Bocas del Toro"
+                        para tomar un bus con la Ruta Panamá - Bocas del Toro. La parada donde te deje el bus depende de lo que diga tu boleto, así que una vez llegues a la ventanilla, asegúrate de solicitar un boleto a Almirante, ya que el 
+                        bus tiene diferentes paradas y Almirante es donde tienes que bajarte. Es un viaje de alrededor de 10 horas aproximadamente.  Una vez Llegues a la parada de Almirante debes tomar un taxi que te lleve directamente hasta 
+                        el muelle de Almirante, allí es donde se toma la lancha para ir a Isla Colón.
+                        Cuando llegues al muelle encontrarás las diferentes compañías de lanchas que puedes escoger para que te lleven hasta Isla Colón. Desde Isla Colón salen los tours hacia otras islas. Para el regreso, debes comprar tu boleto de 
+                        bus en las Oficinas de Tranceibosa en Isla Colón o en Almirante (en Bocas del Toro).
+                    </p>
+                    </div>
+                    <div class="col-md-4 float-right">
+                        <img src="images/bus.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <h2>
+                    <ul>
+                        <li>
+                            En carro en un viaje de carretera a Bocas del Toro
+                        </li>
+                    </ul>
+                </h2>
+                <p>
+                    Saliendo desde la Ciudad de Panamá por el Puente de las Américas o el Puente Centenario y manejar por la Carretera Panamericana alrededor de 587 km 
+                    (8 horas aproximadamente). Puedes ayudarte de las aplicaciones de navegación como, por ejemplo: Google Maps y Waze. Cuando llegues a Almirante, encontrarás unos garajes en donde podrás dejar tu auto. Una vez dejes 
+                    estacionado tu auto solo quedaría tomar unas de las lanchas que dan el servicio de transporte a Isla Colón. El traslado en lancha es aproximadamente de 25 minutos. Puedes quedarte en Isla Colón o tomar un tour hacia otras islas desde allí. 
+                    Si lo que quieres es llevar tu auto a Isla Colón, debes tomar el servicio de ferry 
+                </p>
+                <div class="row_como_llegar">
+                    <div class="col-md-4 como_llegar-carro">
+                        <img src="images/carro.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 como_llegar-carro">
+                        <img src="images/ferry.jpg" alt="">
+                    </div>
+                </div>
+
+                <h2>
+                    <ul>
+                        <li>
+                            En avión desde el aeropuerto de Albrook en la Ciudad de Panamá
+                        </li>
+                    </ul>
+                </h2>
+                <div class="row">
+                    <div class="col-md-8 text-left">
+                        <p>
+                            Esta es la opción más popular entre los viajeros por su rapidez, en vista de que solo es 1 hora de viaje. Puedes hacer la reservación de tu vuelo por la Aerolínea Air Panama. El día del viaje debes dirigirte al Aeropuerto Marcos A. Gelabert en 
+                            Albrook en la Ciudad de Panamá y tomar tu vuelo que te llevará a Isla Colón en Bocas del Toro. Una vez llegues a Bocas del Toro, podrás tomar uno de los taxis disponibles en el aeropuerto para que te lleven directamente a tu hotel de destino. 
+                            Si no te quieres hospedar en Bocas del Toro puedes hacer el viaje de ida y vuelta el mismo día, llegas en el vuelo de la mañana y te regresas a la Ciudad de Panamá en la tarde en el último vuelo del día.
+                        </p>
+                    </div>
+                    <div class="col-md-4 float-right">
+                        <img src="images/avion.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </section>
+            <hr class="hr-style">
+
+            <section id="historia">
+                <h1>Historia</h1>
+                <p>
+                    La historia de la provincia de Bocas del Toro se remonta a 1502, cuando el Almirante Cristóbal Colón visitó la Bahía e Isla que lleva su nombre. 
+                    En los siglos posteriores, fue visitada por navegantes ingleses, norteamericanos, alemanes y misioneros jamaicanos. 
+                    Alrededor de 1820, algunos pescadores nicaragüenses y colombianos se establecieron en la isla Bastimentos; más tarde, al finalizar la construcción del Ferrocarril de Panamá, en 1855, inmigrantes de 
+                    las Antillas se establecieron en Bocas del Toro. A finales de 1880 se inició en la Bahía de Almirante y la Laguna de Chiriquí el cultivo del banano, y en 1904 arrancó la construcción del hermoso 
+                    Edificio del Palacio Municipal (Gobernación), de gran valor arquitectónico y su respectivo parque. Estas obras se concluyeron en 1906 y para esta época la ciudad de Bocas del Toro adquirió tal importancia, 
+                    que fue la sede mundial de la United Fruit Company y se publicaba “ The Central Ameritan Express”, periódico en inglés y español
+                </p>
+                <p>
+                    De 1909 a 1915 la importancia de la ciudad de Bocas del Toro disminuyó, al trasladarse las actividades y la exportación del banano al puerto de Almirante; sin embargo, las funciones administrativas se mantuvieron 
+                    y mantienen en la Isla Colón. La provincia de Bocas del Toro fue creada en 1903. Sus límites son: al norte con el mar Caribe, al sur con la provincia de Chiriquí, al este y sureste con la Comarca Ngöbe- Buglé, al 
+                    oeste y noreste con la provincia de Limón de Costa Rica y al suroeste con la provincia de Puntarenas de Costa Rica. Esta provincia con territorio continental e insular está dividida en tres distritos: Bocas del Toro, 
+                    Changuinola y Chiriquí Grande, siendo su capital la ciudad de Bocas del Toro ubicada en Isla Colón.
+                </p>
+                <div class="row">
+                    <div class="col">
+                        <img src="images/bocas-del-toro.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/calle-1-bocas-del-toro-1890.jpg" alt="">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/isla-colon.jpg" alt="">
+                    </div>
+
+                    <div class="col">
+                        <img src="images/persona.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <hr class="hr-style">
+
+            <section id="recomendaciones">
+                <h1>Recomendaciones</h1>
+                <p>
+                    Hay varias razones convincentes para visitar Bocas del Toro, un archipiélago en Panamá conocido por su belleza natural y su ambiente relajado y caribeño
+                </p>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h4>
+                            Playas paradisíacas
+                        </h4>
+                        <p>
+                            <img src="images/playas-paradisiacas.jpg" alt="Playas paradisíacas" class="img-fluid image-gastronomia">
+                            Bocas del Toro tiene algunas de las playas más espectaculares de Panamá y del Caribe en general. Playas como Playa Estrella, Red Frog Beach y Playa Bluff son famosas por sus aguas cristalinas y arenas blancas.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>
+                            Diversidad natural
+                        </h4>
+                        <p>
+                            <img src="images/diversidad-natural.jpg" alt="Diversidad natural" class="img-fluid image-gastronomia">
+                            La región alberga una increíble biodiversidad marina y terrestre. Puedes explorar manglares, selvas tropicales y arrecifes de coral, que ofrecen oportunidades únicas para el avistamiento de vida silvestre y la práctica de actividades como snorkel y buceo.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>
+                            Ambiente relajado
+                        </h4>
+                        <p>
+                            <img src="images/ambiente-relajado.jpg" alt="Ambiente relajado" class="img-fluid image-gastronomia">
+                            Bocas del Toro es conocido por su ambiente tranquilo y su ritmo de vida relajado. Es un destino ideal para desconectar y disfrutar de la naturaleza, lejos del bullicio de las ciudades.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>
+                            Cultura local
+                        </h4>
+                        <p>
+                            <img src="images/cultura-local.png" alt="Cultura local" class="img-fluid image-gastronomia">
+                            La población de Bocas del Toro es diversa y acogedora. Puedes explorar pueblos pintorescos como Bocas Town, probar la deliciosa gastronomía local y aprender sobre la cultura afrocaribeña que define la región.
+                        </p>
+                    </div>
+                </div>
+                <hr class="hr-style">
+                
+                <div class="row">
+                    <h1>
+                        Información adicional
+                    </h1>
+
+                    <div class="col-md-6 left">
+                      <h2>Turismo en Bocas del Toro</h2>
+                      <p>Descubre los mejores lugares para visitar y alojarse en Bocas del Toro en Tripadvisor.</p>
+                      <a href="https://www.tripadvisor.com/Tourism-g15333086-Bocas_del_Toro_Bocas_del_Toro_Province-Vacations.html">
+                        Turismo en Tripadvisor
+                      </a>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h2>Mejores restaurantes en Bocas del Toro</h2>
+                        <p>
+                            Encuentra los mejores restaurantes y lugares para comer en Bocas del Toro en Tripadvisor.
+                        </p>
+                        <a href="https://www.tripadvisor.com/Restaurants-g15333086-Bocas_del_Toro_Bocas_del_Toro_Province.html">
+                            Mejores restaurantes en Tripadvisor</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 left">
+                        <h2>Qué ver en Bocas del Toro</h2>
+                        <p>
+                            Descubre las mejores atracciones y experiencias en Bocas del Toro en Tripadvisor.
+                        </p>
+                        <a href="https://www.tripadvisor.es/Attractions-g15333086-Activities-Bocas_del_Toro_Bocas_del_Toro_Province.html">
+                            Ver en Tripadvisor</a>
+                    </div>
+                    <div class="col-md-4 left">
+                        <h2>Reserva tu alojamiento en Bocas del Toro</h2>
+                        <p>
+                            Encuentra los mejores hoteles y alojamientos en Booking.com.
+                        </p>
+                        <a href="https://www.booking.com/searchresults.es.html?ss=Bocas+del+Toro%2C+Panam%C3%A1&efdco=1&label=gen173nr-1FCBkoggI46AdIM1gEaLABiAEBmAEKuAEXyAEP2AEB6AEB-AEDiAIBqAIDuAKM7t6zBsACAdICJDhkYTkwNGNmLTkxMGUtNDQ3My1hNDA1LWU5OWY5YjdkZWRiMtgCBeACAQ&sid=2789dec6e83efde342ea11358a301b18&aid=304142&lang=es&sb=1&src_elem=sb&src=index&dest_id=5218&dest_type=region&ac_position=0&ac_click_type=b&ac_langcode=es&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=55df28cdb8c70194&ac_meta=GhA1NWRmMjhjZGI4YzcwMTk0IAAoATICZXM6DmJvY2FzIGRlbCB0b3JvQABKAFAA&group_adults=2&no_rooms=1&group_children=0">
+                            Reserva en Booking</a>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Alquiler de vacaciones en Bocas del Toro</h2>
+                        <p>
+                            Encuentra apartamentos y casas en Airbnb.
+                        </p>
+                        <a href="https://www.airbnb.com.pa/s/Bocas-del-Toro--Panam%C3%A1/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-07-01&monthly_length=3&monthly_end_date=2024-10-01&price_filter_input_type=0&channel=EXPLORE&query=Bocas%20del%20Toro%2C%20Panam%C3%A1&place_id=ChIJNTe4I5Iepo8RcoYyA1--fYM&location_bb=QRdH%2B8KkdExBFUQ3wqSqKw%3D%3D&date_picker_type=calendar&source=structured_search_input_header&search_type=autocomplete_click">
+                            Alquiler en Airbnb</a>
+                    </div>
+                </div>
+                  
+                  
+            </section>
+            
+        </div>
+
+        <footer class="container-fluid footer">
+            <div class="bg-footer">
+                <img src="https://images.unsplash.com/photo-1612158560555-34306ad5e77c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="bg footer">
+            </div>
+            <p>&copy; 2024 - Isaac Alvarado</p>
+        </footer>
+
+          <!-- Bootstrap JS y dependencias -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </body>
+</html>
