@@ -1,0 +1,154 @@
+header{
+    background-color: #504652;
+    text-align: center;
+    padding-top: 1px;
+}
+
+body{
+    background-color: #031227;
+    color: #f8f8f0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* barra de navegacion  */
+nav {
+    background-color: #f8f8f0;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #031227;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #504652;
+    color: #f8f8f0;
+    border-bottom: 2px solid #f8b400;
+    border-top: 2px solid #f8b400;
+}
+
+/* contenedor principal */
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 10px;
+    border-bottom: 1px solid #f8f8f0;
+}
+.grid-container ul{
+    list-style-type:disc;
+}
+
+/* grid item principal */
+.grid-item {
+    padding: 15px;
+    border: 1px;
+}
+
+/* columna izquierda  */
+.left {
+    background-color: #031227;
+    margin: 5px;
+}
+
+.left h2, h3{
+    background-color: #504652;
+    color: #f8f8f0;
+    padding: 8px;
+}
+
+/* imagen de perfil */
+#img {
+    text-align: center;
+    position: relative;
+    background-image: linear-gradient(to bottom, #504652 75%, #031227 25%);
+    background-size: 100%;
+    padding: 5px
+}
+
+#img img {
+    display: block;
+    margin: 0 auto;
+    border: 6px solid #f8f8f0;
+}
+
+#Informacion_Personal li {
+    list-style-type: none;
+    text-align: left;
+}
+
+/* columna derecha */
+.right {
+    background-color: #f8f8f0;
+    color: #031227;
+    margin: 5px 10px 5px 0px
+}
+
+.right h2{
+    background-color: #031227;
+    color: #f8f8f0;
+    padding: 8px;
+}
+
+.right ul {
+    margin: 5px;
+    padding: 15px;
+}
+
+h4{ /* etiqueta de principales responsabilidades */
+    background-color: #031227;
+    color: #f8f8f0;
+    padding: 2px;
+}
+
+/* contacto */
+#Contacto input[type="text"] {
+  width: 50%; 
+  height: 20px; 
+  padding: 5px; 
+  border: 1px solid #504652; 
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#Contacto input[type="email"]{
+    width: 43%; 
+    height: 20px; 
+    padding: 5px; 
+    border: 1px solid #504652; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#Contacto textarea {
+    width: 56%; 
+    height: 60px; 
+    padding: 5px; 
+    border: 1px solid #504652; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+
+}
+
+#Contacto input[type="submit"] {
+  background-color: #031227; 
+  color: #f8f8f0; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#Contacto input[type="submit"]:hover {
+  background-color: #008000;
+}
+
+/* footer  */
+footer{
+    text-align: right;
+    margin-right: 10px;
+}
