@@ -1,2 +1,0 @@
-Debe sólo adjuntar captura final luego  de haber completado los ejercicios en el sitio:
-https://flexboxfroggy.com/#es
